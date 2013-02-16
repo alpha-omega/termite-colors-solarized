@@ -1,0 +1,41 @@
+# Solarized color scheme for Termite
+
+A color theme for the VTE-based terminal emulator [Termite](https://github.com/thestinger/termite/), based on [Ethan Schoonover’s](http://ethanschoonover.com/) Solarized color scheme.
+
+
+## Visit the Solarized homepage
+
+See the [Solarized homepage](http://ethanschoonover.com/solarized) for the theory behind Solarized, screenshots, details and colorscheme versions for Vim, Mutt, popular terminal emulators and other applications.
+
+
+## Repositories
+
+* The color scheme for Termite is a [single repository](https://github.com/alpha-omega/termite-colors-solarized).
+* This is the  main [Solarized repository](https://github.com/altercation/solarized).
+
+## Usage
+
+1. Clone the repository, or download the zipball.
+
+        $ git clone git://github.com/alpha-omega/termite-colors-solarized.git
+
+2. Install the Termite configuration file if you haven't created that file already:
+    
+        $ mkdir -p ~/.config/termite
+        $ cd termite-colors-solarized
+        $ cp solarized-dark ~/.config/termite/config    # For the dark color scheme
+        $ cp solarized-light ~/.config/termite/config   # For the light color scheme
+
+3. If you do have a Termite config file, just add to it the color scheme you'd like to use.
+      
+4. If Termite is running, do ``CTRL + SHIFT + R`` to reload the config file.
+
+## Screenshots
+
+### Dark color scheme
+
+![Termite Solarized dark](https://github.com/alpha-omega/termite-colors-solarized/raw/master/screenshots/termite-solarized-dark.png)
+
+### Light color scheme
+
+![Termite Solarized light](https://github.com/alpha-omega/termite-colors-solarized/raw/master/screenshots/termite-solarized-light.png)
